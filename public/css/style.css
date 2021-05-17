@@ -1,0 +1,43 @@
+.noidungthongbao {
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.hienthithongbao {
+    max-height: 600px;
+    overflow: auto;
+    position: fixed;
+    max-width: 300px;
+}
+
+.pos-f-t {
+    position: fixed;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+.container {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+body {
+    background: rgb(221, 236, 241);
+}
+
+.img {
+    text-align: center;
+    max-height: 300px;
+    height: auto;
+    overflow-x: auto;
+}
+
+.hienthibinhluan {
+    max-height: 300px;
+    height: auto;
+    overflow-x: auto;
+}
